@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [New Tours Automation]">
+  <test name="Book A Flight Test(failed)">
+    <classes>
+      <class name="com.rezaul.newtours.Test.BookFlightTest">
+        <methods>
+          <include name="bookflighttest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rezaul.newtours.Test.BookFlightTest -->
+    </classes>
+  </test> <!-- Book A Flight Test(failed) -->
+</suite> <!-- Failed suite [New Tours Automation] -->

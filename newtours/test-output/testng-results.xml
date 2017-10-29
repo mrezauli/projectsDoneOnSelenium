@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="New Tours Automation" duration-ms="17332" started-at="2017-10-28T00:01:59Z" finished-at="2017-10-28T00:02:16Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="5141" started-at="2017-10-28T00:01:59Z" finished-at="2017-10-28T00:02:04Z">
+      <class name="com.rezaul.newtours.Test.LoginTest">
+        <test-method status="PASS" signature="checkloginpagetitle()[pri:1, instance:com.rezaul.newtours.Test.LoginTest@3012646b]" name="checkloginpagetitle" duration-ms="3866" started-at="2017-10-28T06:01:59Z" finished-at="2017-10-28T06:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpagetitle -->
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:2, instance:com.rezaul.newtours.Test.LoginTest@3012646b]" name="logintest" duration-ms="609" started-at="2017-10-28T06:02:03Z" data-provider="loginData" finished-at="2017-10-28T06:02:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [userName=tutorial, password=tutorial]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.rezaul.newtours.Test.LoginTest -->
+      <class name="com.rezaul.newtours.Utils.DriverManager">
+        <test-method status="PASS" signature="driverexecution()[pri:0, instance:com.rezaul.newtours.Utils.DriverManager@2e6a8155]" name="driverexecution" duration-ms="8" started-at="2017-10-28T06:01:59Z" finished-at="2017-10-28T06:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexecution -->
+      </class> <!-- com.rezaul.newtours.Utils.DriverManager -->
+    </test> <!-- Login Test -->
+    <test name="Flight Finder Test" duration-ms="6199" started-at="2017-10-28T00:02:04Z" finished-at="2017-10-28T00:02:10Z">
+      <class name="com.rezaul.newtours.Test.FlightFinderTest">
+        <test-method status="PASS" signature="checkFlightFindPageTitle()[pri:3, instance:com.rezaul.newtours.Test.FlightFinderTest@3c77d488]" name="checkFlightFindPageTitle" duration-ms="3325" started-at="2017-10-28T06:02:04Z" finished-at="2017-10-28T06:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightFindPageTitle -->
+        <test-method status="PASS" signature="flightfindertest(java.util.List)[pri:4, instance:com.rezaul.newtours.Test.FlightFinderTest@3c77d488]" name="flightfindertest" duration-ms="2786" started-at="2017-10-28T06:02:07Z" data-provider="flightFinderData" finished-at="2017-10-28T06:02:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[FlightFinderDTO [passengers=1, departingFrom=New York, onMonth=3, onDay=4, arrivingIn=San Francisco, returningMonth=5, returningDay=6, airline=Pangea Airlines]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightfindertest -->
+      </class> <!-- com.rezaul.newtours.Test.FlightFinderTest -->
+    </test> <!-- Flight Finder Test -->
+    <test name="Select A Flight Test" duration-ms="1710" started-at="2017-10-28T00:02:10Z" finished-at="2017-10-28T00:02:12Z">
+      <class name="com.rezaul.newtours.Test.SelectFlightTest">
+        <test-method status="PASS" signature="checkSelectFlightPageTitle()[pri:5, instance:com.rezaul.newtours.Test.SelectFlightTest@3e27aa33]" name="checkSelectFlightPageTitle" duration-ms="1138" started-at="2017-10-28T06:02:10Z" finished-at="2017-10-28T06:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSelectFlightPageTitle -->
+        <test-method status="PASS" signature="selectflighttest()[pri:6, instance:com.rezaul.newtours.Test.SelectFlightTest@3e27aa33]" name="selectflighttest" duration-ms="569" started-at="2017-10-28T06:02:11Z" finished-at="2017-10-28T06:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectflighttest -->
+      </class> <!-- com.rezaul.newtours.Test.SelectFlightTest -->
+    </test> <!-- Select A Flight Test -->
+    <test name="Book A Flight Test" duration-ms="2762" started-at="2017-10-28T00:02:12Z" finished-at="2017-10-28T00:02:14Z">
+      <class name="com.rezaul.newtours.Test.BookFlightTest">
+        <test-method status="PASS" signature="checkBookFlightPageTitle()[pri:7, instance:com.rezaul.newtours.Test.BookFlightTest@644baf4a]" name="checkBookFlightPageTitle" duration-ms="1140" started-at="2017-10-28T06:02:12Z" finished-at="2017-10-28T06:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBookFlightPageTitle -->
+        <test-method status="PASS" signature="bookflighttest(java.util.List)[pri:8, instance:com.rezaul.newtours.Test.BookFlightTest@644baf4a]" name="bookflighttest" duration-ms="1568" started-at="2017-10-28T06:02:13Z" data-provider="bookflightData" finished-at="2017-10-28T06:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[BookFlightDTO [passengersFirstName=pop, passengersLastName=loop, meal=LCML, cardType=CB, cardNumber=322, cardExpirationMonth=2, cardExpirationDay=2002, cardFirstName=zzz, cardMiddleName=ccc, cardLastName=vvv]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookflighttest -->
+      </class> <!-- com.rezaul.newtours.Test.BookFlightTest -->
+    </test> <!-- Book A Flight Test -->
+    <test name="Back To Home Test" duration-ms="1474" started-at="2017-10-28T00:02:14Z" finished-at="2017-10-28T00:02:16Z">
+      <class name="com.rezaul.newtours.Test.BackToHome">
+        <test-method status="PASS" signature="checkBacktoHomePageTitle()[pri:9, instance:com.rezaul.newtours.Test.BackToHome@6e6f2380]" name="checkBacktoHomePageTitle" duration-ms="602" started-at="2017-10-28T06:02:14Z" finished-at="2017-10-28T06:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBacktoHomePageTitle -->
+        <test-method status="PASS" signature="backtohometest()[pri:10, instance:com.rezaul.newtours.Test.BackToHome@6e6f2380]" name="backtohometest" duration-ms="869" started-at="2017-10-28T06:02:15Z" finished-at="2017-10-28T06:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtohometest -->
+      </class> <!-- com.rezaul.newtours.Test.BackToHome -->
+    </test> <!-- Back To Home Test -->
+  </suite> <!-- New Tours Automation -->
+</testng-results>

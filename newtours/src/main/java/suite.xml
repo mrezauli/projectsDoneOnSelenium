@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="New Tours Automation">
+
+  <test name="Login Test">
+    <classes>
+       <class name="com.rezaul.newtours.Utils.DriverManager" />
+       <class name="com.rezaul.newtours.Test.LoginTest" />
+       
+    </classes>
+  </test>
+  <test name="Flight Finder Test">
+    <classes>
+  
+       <class name="com.rezaul.newtours.Test.FlightFinderTest" />
+    </classes>
+  </test>
+  <test name="Select A Flight Test">
+    <classes>
+       
+       <class name="com.rezaul.newtours.Test.SelectFlightTest" />
+    </classes>
+  </test>
+  
+  <test name="Book A Flight Test">
+    <classes>
+       
+       <class name="com.rezaul.newtours.Test.BookFlightTest" />
+    </classes>
+  </test>
+  
+  <test name="Back To Home Test">
+    <classes>
+       
+       <class name="com.rezaul.newtours.Test.BackToHome" />
+    </classes>
+  </test>
+  
+  
+  
+</suite>  
